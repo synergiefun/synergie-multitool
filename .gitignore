@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Build output
+build/
+dist/
+*.spec.bak
+*.egg-info/
+
+# Local output / reports
+reports/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
